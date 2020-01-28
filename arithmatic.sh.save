@@ -1,0 +1,20 @@
+#!/bin/bash -x
+read -p 'enter the first number: ' a;
+z=$(( $a + $b + $c))
+echo $z;
+z=$(( $a + $b * $c))
+echo $z;
+
+
+
+z=$(( $a + $b + $c))
+echo $z;
+z=$(( $a + $b * $c))
+echo $z;
+z=$(( $c + $a / $b))
+echo $z;
+z=$(( $a % $b + $c))
+echo $z;
+z=$(( $a * $b + $c))
+echo $z;
+
